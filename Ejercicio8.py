@@ -1,0 +1,5 @@
+num=input("Introduce el primer número entero: ")
+num2=input("Introduce el segundo número entero: ")
+cociente=int(num)//int(num2)
+resto=int(num)%int(num2)
+print(num + " entre "+num2+" da un cociente "+str(cociente)+" y un resto: "+str(resto))
